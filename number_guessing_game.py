@@ -28,31 +28,31 @@ while True:
 
     if number == 0:
         print("Exiting the game...")
-        time.sleep(7)
+        time.sleep(4)
         print("Exited the game!")
         break
 
     elif number < random_:
         print("Being checking...")
-        time.sleep(3)
+        time.sleep(2.5)
         print("Enter a larger number!")
         continue
 
     elif number > random_:
         print("Being checking...")
-        time.sleep(3)
+        time.sleep(2.5)
         print("Enter a smaller number!")
         continue
 
     elif number == random_:
         print("Being checking...")
-        time.sleep(3)
+        time.sleep(2.5)
         print("Congratulations,your guess is correct!!")
         print("Randomly selected number: {}".format(random_))
         print("Number of guesses: {}".format(counter))
-        time.sleep(3)
+        time.sleep(2.5)
         print("Exiting the game...")
-        time.sleep(7)
+        time.sleep(4)
         print("Exited the game!")
         break
 
